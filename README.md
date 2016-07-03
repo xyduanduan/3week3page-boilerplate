@@ -1,2 +1,6 @@
 # 3week3page-boilerplate 
-3周3页面 boilerplate
+### how to setup local development env?
+1. npm install
+2. gulp sass
+3. gulp serve
+

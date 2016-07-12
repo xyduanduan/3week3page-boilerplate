@@ -1,0 +1,235 @@
+body {
+  /*background: firebrick;*/
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "American Typewriter", Times, serif; }
+
+.myheading {
+  border-bottom: 1px solid #e3e3e3;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 12px; }
+
+.container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 60px; }
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 60px;
+  width: 100%; }
+
+.navbar {
+  height: 60px;
+  margin: 0px; }
+
+.container-fluid:before, .container-fluid:after,
+.container:before, .container:after {
+  display: table;
+  content: ""; }
+
+.container-fluid:after, .container:after {
+  clear: both; }
+
+.navbar-header {
+  float: left;
+  padding-left: 60px;
+  height: 60px;
+  width: 100px; }
+
+.navbar-menu {
+  width: 1000px;
+  float: right; }
+
+.navbar-left {
+  float: left;
+  position: relative;
+  height: 60px;
+  width: 800px;
+  border-left: 1px solid #eae9e6;
+  border-right: 1px solid #eae9e6; }
+
+.navbar-left li {
+  display: inline-block;
+  padding-top: 7px; }
+
+.navbar-left li a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 25px;
+  color: #777883; }
+
+.navbar-right {
+  float: right;
+  padding-right: 60px;
+  width: 100px;
+  height: 60px; }
+
+.nav-submit {
+  padding: 10px; }
+
+.marquee {
+  height: 90vh;
+  background-image: url("https://www.learntobe.org/assets/bg_student-59769c2ba95a350b90068cacc4399773.jpg");
+  background-size: cover;
+  opacity: .70; }
+
+h2 {
+  font-size: 60px;
+  font-weight: 100;
+  font-family: 'Roboto Slab', serif; }
+
+#green {
+  background: #91d0b1;
+  color: white; }
+
+#yellow {
+  background: #ffcd62;
+  color: white; }
+
+#blue {
+  background: #80a8cc;
+  color: white; }
+
+.section {
+  width: 100%;
+  height: 60vh;
+  padding: 20px;
+  display: table;
+  text-align: center; }
+
+.section > .content {
+  display: table-cell;
+  vertical-align: middle; }
+
+.content {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.col-lg-offset-1 {
+  margin-left: 8.3333333333%; }
+
+.col-lg-6 {
+  float: right;
+  padding-right: 200px; }
+
+.col-lg-5 {
+  /*width: 40%;*/
+  height: 300px;
+  float: left;
+  padding-left: 200px; }
+
+.col-lg {
+  position: relative;
+  min-height: 1px;
+  display: inline-block;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 1.25em;
+  margin: 0 40px;
+  vertical-align: middle;
+  min-width: 200px;
+  max-width: 430px; }
+
+.section-img {
+  margin-top: 40px; 
+  opacity: .3;
+}
+
+.online {
+  color: #fff;
+  padding-top: 200px;
+  text-align: center; }
+
+.mission {
+  color: #000;
+  text-align: center;
+  margin: 100px auto; }
+
+.description {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 25px auto; }
+
+.process {
+  background: #fcf9f4;
+  text-align: center;
+  padding: 100px;
+  overflow: auto; }
+
+.process .title {
+  font-size: 40px;
+  color: #4d4e59;
+  margin-bottom: 20px;
+  margin-bottom: 60px; }
+
+.process-ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center; }
+
+.process-ul li {
+  float: left;
+  border: 1px solid #d9ddde;
+  padding: 100px;
+  border-radius: 5px;
+  margin-right: 20px; }
+
+#process_green {
+  color: #91d0b1; }
+
+#process_yellow {
+  color: #ffcd62; }
+
+#process_blue {
+  color: #80a8cc; }
+
+.process .number {
+  font-size: 60px;
+  margin-bottom: 40px; }
+
+.btn {
+  display: inline-block;
+  padding: 6px 40px 6px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px; }
+
+.mission-btn {
+  background-color: #ffcd62; }
+
+.tutor-btn {
+  background-color: #e3e3e3;
+  margin-left: 20px; }
+
+.nav-btn {
+  display: inline-block;
+  padding: 4px 20px 4px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 4px;
+  cursor: pointer; }
+
+footer {
+  text-align: center;
+  background: #4d4e59;
+  line-height: 6em;
+  color: #FFFFFF; }

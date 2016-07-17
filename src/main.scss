@@ -21,7 +21,7 @@ body {
   float: left; }
 
 .homepage {
-  background-image: url("/dist/homepage.jpg");
+  background-image: url("http://foodsense.is/uploads/slides/0052_foodsense.jpg");
   background-size: cover;
   height: 400px; }
 
@@ -36,9 +36,8 @@ body {
   line-height: 40px;
   position: relative;
   top: 200px;
-  padding: 0px 20px 0px 20px; 
-  margin: 0px;
-}
+  padding: 0px 20px 0px 20px;
+  margin: 0px; }
 
 .home-toggle {
   padding: 0px;
@@ -123,9 +122,14 @@ body {
   width: 21%;
   box-sizing: border-box;
   float: left;
+<<<<<<< HEAD
   margin-left: 40px; 
   padding-bottom: 20px;
 }
+=======
+  margin-left: 40px;
+  padding-bottom: 20px; }
+>>>>>>> f48102b11c5376ef3e19d58916acdd9ddd0ece3c
 
 .food-list li:first-child {
   margin-left: 0px; }
@@ -235,9 +239,14 @@ footer {
 .foot-link {
   width: 87%;
   float: left;
+<<<<<<< HEAD
   clear: right; 
   color: #ccc;
 }
+=======
+  clear: right;
+  color: #ccc; }
+>>>>>>> f48102b11c5376ef3e19d58916acdd9ddd0ece3c
 
 .foot-link a {
   text-decoration: none;
@@ -253,5 +262,9 @@ footer {
   list-style: none;
   font-size: 32px;
   opacity: .2;
+<<<<<<< HEAD
   padding-left: 10px;
    }
+=======
+  padding-left: 10px; }
+>>>>>>> f48102b11c5376ef3e19d58916acdd9ddd0ece3c

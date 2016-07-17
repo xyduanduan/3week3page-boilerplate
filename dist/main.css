@@ -21,7 +21,7 @@ body {
   float: left; }
 
 .homepage {
-  background-image: url("/dist/homepage.jpg");
+  background-image: url("http://foodsense.is/uploads/slides/0052_foodsense.jpg");
   background-size: cover;
   height: 400px; }
 

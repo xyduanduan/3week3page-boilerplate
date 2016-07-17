@@ -245,6 +245,9 @@ footer {
   float: left;
   clear: left; }
 
+.social-link {
+  margin-top: 0px; }
+
 .social-link li {
   display: inline-block;
   list-style: none;

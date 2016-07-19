@@ -48,13 +48,16 @@ body {
   list-style: none;
   width: 25%;
   box-sizing: border-box;
-  border: 1px solid #D3EDE9;
+  border-left: 1px solid #D3EDE9;
   background: #EFF8F7;
   padding: 10px 0px 20px 20px;
   margin: 0px;
   color: #34AC98;
   text-align: left;
   float: left; }
+
+.home-toggle li:first-child {
+  border-left-color: #fff; }
 
 .active-toggle {
   background: #D9EFEC !important; }
@@ -72,9 +75,12 @@ body {
   font-size: 12px; }
 
 .email-box {
-  margin-top: 120px;
+  margin-top: 110px;
   background: url("http://foodsense.is/-/img/icon-mailinglist-32.png") no-repeat 18px 7px;
-  background-size: 32px auto; }
+  background-size: 32px auto;
+  border-top: 1px dashed #CCC;
+  border-bottom: 1px dashed #ccc;
+  padding: 10px; }
 
 .email-notice {
   float: left;
@@ -112,7 +118,7 @@ body {
   cursor: pointer; }
 
 .food-list {
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 0px;
   width: 100%; }
 
@@ -132,7 +138,8 @@ body {
   text-decoration: none; }
 
 .food-img {
-  width: 205px;
+  width: 180px;
+  padding: 9px;
   border: 1px solid #ccc; }
 
 .food-title {
@@ -190,7 +197,10 @@ body {
   width: 160px; }
 
 .nav-btn-box .btn-title {
-  font-size: 14px; }
+  font-size: 14px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px; }
 
 .hr-dashed {
   border: 0;

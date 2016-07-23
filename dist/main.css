@@ -13,7 +13,6 @@ body {
 .sidebar {
   width: 20%;
   float: left;
-  text-align: left;
   height: 100%; }
 
 .container {
@@ -44,7 +43,6 @@ body {
   margin: 0px; }
 
 .home-toggle li {
-  display: inline-block;
   list-style: none;
   width: 25%;
   box-sizing: border-box;
@@ -53,7 +51,6 @@ body {
   padding: 10px 0px 20px 20px;
   margin: 0px;
   color: #34AC98;
-  text-align: left;
   float: left; }
 
 .home-toggle li:first-child {
@@ -125,7 +122,6 @@ body {
   width: 100%; }
 
 .food-list li {
-  display: inline-block;
   list-style: none;
   width: 21%;
   box-sizing: border-box;
@@ -193,9 +189,9 @@ body {
   padding-right: 10px; }
 
 .nav-btn-box {
-  text-align: left;
   padding-left: 20px;
-  padding-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   width: 160px; }
 
 .nav-btn-box .btn-title {

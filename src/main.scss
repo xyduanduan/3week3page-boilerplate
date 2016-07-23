@@ -276,3 +276,267 @@ footer {
     line-height: 6em;
     color: #FFFFFF;
 }
+  width: 100%;
+  font-family: "American Typewriter", Times, serif; }
+
+.wrapper {
+  height: 100%;
+  width: 1080px;
+  margin: 50px auto; }
+
+.sidebar {
+  width: 20%;
+  float: left;
+  text-align: left;
+  height: 100%; }
+
+.container {
+  width: 80%;
+  float: left; }
+
+.homepage {
+  background-image: url("http://foodsense.is/uploads/slides/0052_foodsense.jpg");
+  background-size: cover;
+  height: 400px; }
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.homepage-desc {
+  float: right;
+  clear: right;
+  line-height: 40px;
+  position: relative;
+  top: 200px;
+  padding: 0px 20px 0px 20px;
+  margin: 0px; }
+
+.home-toggle {
+  padding: 0px;
+  margin: 0px; }
+
+.home-toggle li {
+  display: inline-block;
+  list-style: none;
+  width: 25%;
+  box-sizing: border-box;
+  border-left: 1px solid #D3EDE9;
+  background: #EFF8F7;
+  padding: 10px 0px 20px 20px;
+  margin: 0px;
+  color: #34AC98;
+  text-align: left;
+  float: left; }
+
+.home-toggle li:first-child {
+  border-left-color: #fff; }
+
+.active-toggle {
+  background: #D9EFEC !important; }
+
+.toogle-link {
+  text-decoration: none;
+  color: #34AC98;
+  line-height: 1.3px; }
+
+.toggle-title {
+  font-weight: inherit; }
+
+.toggle-desc {
+  font-style: italic;
+  font-size: 12px; }
+
+.email-box {
+  margin-top: 110px;
+  background: url("http://foodsense.is/-/img/icon-mailinglist-32.png") no-repeat 18px 7px;
+  background-size: 32px auto;
+  border-top: 1px dashed #CCC;
+  border-bottom: 1px dashed #ccc;
+  padding: 10px; }
+
+.email-notice {
+  float: left;
+  width: 44%;
+  font-size: 12px;
+  padding-left: 66px; }
+
+.email-send {
+  float: right;
+  padding-top: 10px;
+}
+
+.email-span {
+  padding-left: 10px; }
+
+.email-input {
+  width: 260px;
+  height: 22px;
+  border: 1px solid #ccc;
+  border-top-color: #000;
+  font-size: 14px; }
+
+.email-btn {
+  display: inline-block;
+  line-height: 18px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-image: -webkit-linear-gradient(#E3E3E3, #E3E3E3 25%, #E3E3E3);
+  background-image: -o-linear-gradient(#E3E3E3, #E3E3E3 25%, #E3E3E3);
+  background-image: linear-gradient(#E3E3E3, #E3E3E3 25%, #E3E3E3);
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 14px;
+  cursor: pointer; }
+
+.food-list {
+  margin-top: 30px;
+  padding: 0px;
+  width: 100%; }
+
+.food-list li {
+  display: inline-block;
+  list-style: none;
+  width: 21%;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 40px;
+  padding-bottom: 20px; }
+
+.food-list li:first-child {
+  margin-left: 0px; }
+
+.food-link {
+  text-decoration: none; }
+
+.food-img {
+  width: 180px;
+  padding: 9px;
+  border: 1px solid #ccc; }
+
+.food-title {
+  color: #34AC98;
+  font-size: 16px; }
+
+.food-desc {
+  font-size: 14px;
+  line-height: 18px; }
+
+.food-date {
+  color: #ACACAC; }
+
+.food-read {
+  color: #34AC98;
+  text-decoration: none;
+  font-size: 14px; }
+
+.bg-white {
+  background: #fff; }
+
+.bg-black {
+  background: #000;
+  color: #fff; }
+
+.logo {
+  padding-left: 30px;
+  padding-bottom: 20px; }
+
+.nav {
+  padding: 0px; }
+
+.nav li {
+  text-indent: 20px;
+  line-height: 32px;
+  padding-bottom: 20px;
+  list-style: none; }
+
+.nav li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #34AC98; }
+
+.nav-icon {
+  float: left;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  padding-right: 10px; }
+
+.nav-btn-box {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 40px;
+  width: 160px; }
+
+.nav-btn-box .btn-title {
+  font-size: 14px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px; }
+
+.hr-dashed {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999; }
+
+.nav-btn {
+  display: inline-block;
+  line-height: 20px;
+  width: 160px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  color: #34AC98;
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #ffffff);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #ffffff);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #ffffff);
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "American Typewriter", Times, serif;
+  font-size: 12px;
+  cursor: pointer; }
+
+.nav-btn-icon {
+  padding-right: 5px;
+  width: 16px;
+  height: 16px; }
+
+.com-dess {
+  font-size: 12px;
+  line-height: 22px; }
+
+footer {
+  border-top: 2px solid #ccc;
+  clear: both;
+  font-size: 14px;
+  line-height: 0px;
+  padding-top: 20px; }
+
+.foot-link {
+  width: 87%;
+  float: left;
+  clear: right;
+  color: #ccc; }
+
+.foot-link a {
+  text-decoration: none;
+  color: #34AC98; }
+
+.version {
+  color: #ccc;
+  float: left;
+  clear: left; }
+
+.social-link {
+  margin-top: 0px; }
+
+.social-link li {
+  display: inline-block;
+  list-style: none;
+  font-size: 32px;
+  opacity: .2;
+  padding-left: 10px; }
